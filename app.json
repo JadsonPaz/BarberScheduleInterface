@@ -1,8 +1,9 @@
 {
   "expo": {
-    "name": "frontend",
+    "scheme": "chicocabelo",
+    "name": "Agendou?",
     "slug": "frontend",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -10,7 +11,7 @@
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#2F6B5F"
     },
     "ios": {
       "supportsTablet": true
@@ -18,13 +19,25 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#2F6B5F"
       },
-      "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "edgeToEdgeEnabled": false,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.agendou.agendamento",
+      "versionCode": 4
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "androidNavigationBar": {
+      "backgroundColor": "#FFFDF9",
+      "barStyle": "dark-content"
+    },
+    "owner": "reidnon",
+    "extra": {
+      "eas": {
+        "projectId": "1582f3ee-6338-4019-ade6-478655dc052b"
+      }
     }
   }
 }
