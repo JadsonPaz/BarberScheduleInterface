@@ -398,7 +398,7 @@ This project is licensed under the MIT License.
 
 ### Jadson Paz Sales
 
-Frontend Developer
+Full Stack Developer
 
 Passionate about building modern applications with clean architecture and intuitive user experiences.
 
